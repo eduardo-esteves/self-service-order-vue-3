@@ -1,4 +1,4 @@
-var products = [
+const products = [
     {
         "photo": "img/big-mac.png",
         "name": "Big Mac",
@@ -64,3 +64,12 @@ var products = [
     }
 ];
  
+const selfServiceMachine = {
+    data() {
+        return {
+            message: "Hello World!"
+        }
+    }
+};
+
+Vue.createApp(selfServiceMachine).mount('#app');
