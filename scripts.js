@@ -67,7 +67,7 @@ const products = [
 const selfServiceMachine = {
     data() {
         return {
-            message: "Hello World!"
+           products
         }
     }
 };
