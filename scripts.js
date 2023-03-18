@@ -65,9 +65,18 @@ const products = [
 ];
  
 const selfServiceMachine = {
-    data() {
+    data () {
         return {
            products
+        }
+    },
+    methods: {
+        total () {
+            const total = this.products.reduce((totalVal, product) => {
+                return totalVal += (product.active) ? (product.price * product.quantity) : 0;
+            }, 0)
+
+            return total.toFixed(2);
         }
     }
 };
