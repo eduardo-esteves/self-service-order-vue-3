@@ -10,7 +10,7 @@ com o detalhe do pedido.
 
 ### Demo:
 
-![self-service-order-vue3](https://user-images.githubusercontent.com/93061383/226149838-70bdf6ee-6109-4b57-949c-cd4f8e775d56.gif)
+![self-service-order-vue3](https://user-images.githubusercontent.com/93061383/226150729-0659f819-e200-418a-bcf6-b6f41e0b3aa0.gif)
 
 
 ## Caracteriticas
