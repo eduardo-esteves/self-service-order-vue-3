@@ -1,21 +1,13 @@
-members = [
-    {
-        fname: 'John',
-        lname: 'Lennon',
-        instrument: 'Violão'
-    },
-    {
-        fname: 'George',
-        lname: 'Harrison',
-        instrument: 'Guitarra'
-    }
-]
-
 const handlingForms = {
 
-    data() {
+    data () {
         return {
-            members: window.members
+            members: [],
+            newMember: {
+                fname: null,
+                lname: null,
+                instrument: null
+            }
         }
     },
 
