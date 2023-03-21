@@ -10,6 +10,11 @@ const handlingForms = {
             }
         }
     },
+    methods: {
+        addMember () {
+            this.members.push(this.newMember);
+        }
+    }
 
 };
 
