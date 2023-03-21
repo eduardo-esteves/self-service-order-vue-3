@@ -12,7 +12,9 @@ const handlingForms = {
     },
     methods: {
         addMember () {
-            this.members.push(this.newMember);
+            this.newMember.fname && this.newMember.lname 
+                && this.newMember.instrument && this.members.push(this.newMember);
+            this.newMember = {}
         }
     }
 
